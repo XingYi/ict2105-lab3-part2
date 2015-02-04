@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Xing%20Yi/Android%20studioProjects/DangerousApp/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Xing%20Yi/Android%20studioProjects/ict2105-lab3-part2/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Xing%20Yi/Android%20studioProjects/DangerousApp/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Xing%20Yi/Android%20studioProjects/ict2105-lab3-part2/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">DangerousApp</string>
     <string name="hello_world">You have opened a dangerous activity</string>
     <string name="permdesc_bookmark">Allows the application to perform dangerous stuff on your phone.</string>
     <string name="permlab_bookmark">Perform dangerous stunt on your precious phone.</string>
-    <!-- From: file:/C:/Users/Xing%20Yi/Android%20studioProjects/DangerousApp/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Xing%20Yi/Android%20studioProjects/ict2105-lab3-part2/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

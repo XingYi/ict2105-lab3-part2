@@ -1,0 +1,10 @@
+The Dangerous App can't be launched from the Launcher/Home screen and it showed a message of "App isn't installed." in the emulator.
+
+The reason it does not work is because of the custom permission that is stated inside the Android Manifest file. The activity tag for "DangerousActivity" includes the custom permission of "android:permission="course.labs.permissions.DANGEROUS_ACTIVITY_PERM" which is required for any app to call, as shown below.
+
+	<activity
+            android:name=".DangerousActivity"
+            android:label="@string/app_name"
+            android:permission="course.labs.permissions.DANGEROUS_ACTIVITY_PERM" >
+
+The Launcher/Home screen is also an app and does not has a <uses-permission> element for "course.labs.permissions.DANGEROUS_ACTIVITY_PERM", therefore it is not able to launch the "Dangerous App".
