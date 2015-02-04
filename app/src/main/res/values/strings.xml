@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DangerousApp</string>
+    <string name="hello_world">You have opened a dangerous activity</string>
+    <string name="permlab_bookmark">Perform dangerous stunt on your precious phone.</string>
+    <string name="permdesc_bookmark">Allows the application to perform dangerous stuff on your phone.</string>
+
+</resources>
